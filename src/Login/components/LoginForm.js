@@ -25,15 +25,12 @@ class LoginForm extends React.Component {
 				<div className="login-form">
 					<div className="login-fb_c">
 						<button name={LoginType.FB_LOGIN} onClick={this.handleOnClick}>Login Facebook</button>
-						<icon></icon>
 					</div>
 					<div className="login-instagramm_c">
 						<button name={LoginType.INSTA_LOGIN} onClick={this.handleOnClick}>Login Instagram</button>
-						<icon></icon>
 					</div>
 					<div className="login-twitter_c">
 						<button name={LoginType.TWITT_LOGIN} onClick={this.handleOnClick}>Login Twitter</button>
-						<icon></icon>
 					</div>
 				</div>
 			</div>
